@@ -1,7 +1,7 @@
 <h2>Listing posts</h2>
 <ul class="nav pull-right">
   <li>
-    <%= link "Export XLSX", to: reports_post_path(@conn, :index), class: "btn btn-default" %>
+    <%= link "Export XLSX", to: exports_post_path(@conn, :index), class: "btn btn-default" %>
   </li>
 </ul>
 <table class="table">

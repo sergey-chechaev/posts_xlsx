@@ -1,4 +1,4 @@
-defmodule PostsXlsx.Reports.PostController do
+defmodule PostsXlsx.Exports.PostController do
   use PostsXlsx.Web, :controller
 
   alias PostsXlsx.Post

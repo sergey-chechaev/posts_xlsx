@@ -20,7 +20,7 @@ defmodule PostsXlsx.Router do
     resources "/posts", PostController
   end
 
-  scope "/reports", as: :reports, alias: PostsXlsx.Reports do
+  scope "/exports", as: :exports, alias: PostsXlsx.Exports do
     pipe_through :browser
 
     resources "/posts", PostController, only: [:index]

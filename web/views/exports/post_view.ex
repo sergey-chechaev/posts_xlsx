@@ -1,4 +1,4 @@
-defmodule PostsXlsx.Reports.PostView do
+defmodule PostsXlsx.Exports.PostView do
   use PostsXlsx.Web, :view
 
   alias Elixlsx.{Workbook, Sheet}
