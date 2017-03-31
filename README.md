@@ -1,5 +1,8 @@
 # PostsXlsx
 
+Article Phoenix/Elixir — Export data to XLSX
+https://medium.com/@SergeyChechaev/elixir-phoenix-everyday-tips-create-xlsx-66cd70268eb4
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
